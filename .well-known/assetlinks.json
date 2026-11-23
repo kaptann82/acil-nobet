@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "BURAYA_PAKET_ADI",
+    "sha256_cert_fingerprints": ["BURAYA_SHA256_PARMAK_IZI"]
+  }
+}]

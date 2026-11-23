@@ -1,0 +1,25 @@
+{
+  "name": "Acil Nöbet 3D — Acil Servis Doktor Simülasyonu",
+  "short_name": "Acil Nöbet 3D",
+  "description": "Acil servis doktor simülasyonu: triyaj, tetkik, tedavi, entübasyon, ventilatör ve defibrilatörle gerçekçi nöbet. Eğitim amaçlıdır.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "any",
+  "background_color": "#0b1118",
+  "theme_color": "#0b1118",
+  "lang": "tr",
+  "dir": "ltr",
+  "categories": ["games", "education", "medical"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "screenshots": [
+    {"src": "screens/ekran1.png", "sizes": "1080x1920", "type": "image/png", "form_factor": "narrow", "label": "Hasta ekranı"},
+    {"src": "screens/ekran3.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Acil servis"}
+  ]
+}

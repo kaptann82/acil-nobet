@@ -1,5 +1,5 @@
 // Acil Nöbet 3D — çevrimdışı önbellek. Güncelleme yayınlarken SURUM değerini artırın.
-const SURUM = 'acil-nobet-v2.34.0';
+const SURUM = 'acil-nobet-v2.35.0';
 const DOSYALAR = ['./', './index.html', './three.min.js', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(SURUM).then(c => c.addAll(DOSYALAR)).then(() => self.skipWaiting()));
